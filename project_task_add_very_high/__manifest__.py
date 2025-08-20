@@ -12,6 +12,10 @@
     "category": "Project",
     "website": "https://github.com/OCA/project",
     "depends": ["project","sale"],
-    "data": ["views/project_task_view.xml","views/sale_order_views.xml"],
+    "data": [
+        "views/project_task_view.xml",
+        "views/sale_order_views.xml",
+        "views/product_views.xml"
+        ],
     "installable": True,
 }
