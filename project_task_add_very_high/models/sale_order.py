@@ -8,7 +8,7 @@ class SaleOrder(models.Model):
     _inherit = "sale.order"
 
     priority = fields.Selection(
-        selection_add=[("1", "Very High"), ("3", "Most Important")],
+        selection=[("1", "Very High"), ("3", "Most Important")],
         # ondelete={"priority": "set default"},
         default="1",
     )
