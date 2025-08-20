@@ -11,7 +11,7 @@
     "license": "AGPL-3",
     "category": "Project",
     "website": "https://github.com/OCA/project",
-    "depends": ["project"],
-    "data": ["views/project_task_view.xml"],
+    "depends": ["project","sale"],
+    "data": ["views/project_task_view.xml","views/sale_order_views.xml"],
     "installable": True,
 }
