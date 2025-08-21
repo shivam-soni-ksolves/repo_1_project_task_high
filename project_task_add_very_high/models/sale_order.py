@@ -12,3 +12,9 @@ class SaleOrder(models.Model):
         # ondelete={"priority": "set default"},
         default="1",
     )
+
+    priority2 = fields.Selection(
+        selection=[("2", "Very High"), ("3", "Most Important")],
+        # ondelete={"priority": "set default"},
+        default="2",
+    )
